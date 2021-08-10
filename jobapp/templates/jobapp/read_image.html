@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>read image</title>
+  </head>
+  <body>
+    <h1>Here You will get All images</h1>hr
+
+    {% for img in data %}
+
+      <img src="{{ img.image.url }}" alt="" style="">
+
+      <h3>{{img.discription}}</h3>
+
+    {% endfor %}
+  </body>
+</html>

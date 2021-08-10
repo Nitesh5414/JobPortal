@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>add image</title>
+  </head>
+  <body>
+    <h1>Add Image Here</h1>
+
+    <form class="" action="" method="POST" enctype="multipart/form-data">{% csrf_token %}
+      {{form.as_p}}
+
+      <button type="submit" name="button">Add Image</button>
+    </form>
+  </body>
+</html>
